@@ -160,3 +160,43 @@ textarea {
 a:hover {
   color: #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+  #central_box {
+    width: auto;
+    /* border-left: 0;
+    border-right: 0; */
+    margin: 0% 2% 0% 2%;
+  }
+  #div_header {
+    position: static;
+
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 10px;
+    position: static;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #h1_1th {
+    margin-left: 2%;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #picture {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
