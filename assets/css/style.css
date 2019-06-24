@@ -40,7 +40,7 @@ body {
   color: #4aaaa5;
   margin-left: 3%;
   margin-right: 3%;
-  padding-top: 40px;
+  padding-top: 20px;
   height: 60px;
   border-bottom: solid 3px #cccccc;
 }
@@ -60,7 +60,6 @@ footer {
 #central_box {
   background-color: #ffffff;
   border: solid 2px #d8d7d7;
-  margin-bottom: 5000px;
 }
 
 #picture {
@@ -81,10 +80,11 @@ header,
   margin: 0 auto;
 }
 
-section {
-  margin-left: 29px;
-  margin-right: 29px;
+#id_section {
+  margin-left: 3%;
+  margin-right: 3%;
   padding-bottom: 2%;
+  width: 94%;
 }
 
 a {
@@ -99,9 +99,9 @@ a {
 .div_portfolio {
   float: left;
   position: relative;
-  width: 375px;
-  height: 350px;
-  margin: 4%;
+  width: 44%;
+  height: 300px;
+  margin: 3%;
 }
 
 .img_portfolio {
@@ -116,7 +116,7 @@ a {
 
 h2 {
   width: 100%;
-  height: 70px;
+  height: 20%;
   background-color: #4aaaa5;
   text-align: center;
   line-height: 65px;
@@ -135,15 +135,15 @@ h2 {
 }
 
 input {
-  width: 96%;
+  width: 99.6%;
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
 }
 
 textarea {
-  width: 96%;
+  width: 100%;
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
 }
 
 #submit {
@@ -162,21 +162,24 @@ a:hover {
 }
 
 @media screen and (max-width: 980px) {
+  html {
+    position: relative;
+  }
+
   #central_box {
     width: auto;
-    /* border-left: 0;
-    border-right: 0; */
     margin: 0% 2% 0% 2%;
   }
+
   #div_header {
     position: static;
-
     width: 100%;
   }
 
   footer {
     margin-top: 10px;
-    position: static;
+    position: absolute;
+    bottom: 0;
   }
 
   header {
@@ -189,14 +192,109 @@ a:hover {
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  #div_links_header {
+    margin-right: 2%;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    position: relative;
+  }
+
+  #central_box {
+    width: auto;
+    margin: 0% 2% 0% 2%;
+  }
+
+  #div_header {
+    position: static;
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #h1_1th {
+    margin-left: 2%;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #div_links_header {
+    margin-right: 2%;
+  }
+
   #picture {
     width: 40%;
     height: 40%;
   }
+
+  .div_portfolio {
+    height: 200px;
+  }
+  h2 {
+    line-height: 38px;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  html {
+    position: relative;
+  }
+
+  #central_box {
+    width: auto;
+    margin: 0% 2% 0% 2%;
+  }
+
+  #div_header {
+    position: static;
+    width: 100%;
+    height: 150px;
+  }
+
+  footer {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #h1_1th {
+    width: 100%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  #div_links_header {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #picture {
+    width: 100%;
+  }
+
+  .div_portfolio {
+    height: 170px;
+  }
+
+  h2 {
+    line-height: 33px;
+  }
 }
