@@ -1,0 +1,162 @@
+* {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+body {
+  margin: 0%;
+  margin-bottom: 100px;
+}
+
+#div_header {
+  background-color: #ffffff;
+  border-bottom: solid 3px #cccccc;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+#div_links_header {
+  float: right;
+  margin-top: 28px;
+}
+
+#h1_1th {
+  padding-top: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left;
+  height: 60px;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+#h1_2nd {
+  clear: both;
+  color: #4aaaa5;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 40px;
+  height: 60px;
+  border-bottom: solid 3px #cccccc;
+}
+
+footer {
+  background-color: #666666;
+  border-top: solid 7px #4aaaa5;
+  text-align: center;
+  height: 25px;
+  padding-top: 38px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  color: #b9b7b7;
+}
+
+#central_box {
+  background-color: #ffffff;
+  border: solid 2px #d8d7d7;
+  margin-bottom: 5000px;
+}
+
+#picture {
+  width: 18%;
+  height: 18%;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+h1 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+header,
+#central_box {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  margin-left: 29px;
+  margin-right: 29px;
+  padding-bottom: 2%;
+}
+
+a {
+  padding: 10px;
+  text-decoration-line: none;
+}
+
+.left_border {
+  border-right: solid 1px #cccccc;
+}
+
+.div_portfolio {
+  float: left;
+  position: relative;
+  width: 375px;
+  height: 350px;
+  margin: 4%;
+}
+
+.img_portfolio {
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: solid 2px #aaaaaa;
+}
+
+h2 {
+  width: 100%;
+  height: 70px;
+  background-color: #4aaaa5;
+  text-align: center;
+  line-height: 65px;
+  position: absolute;
+  left: 2px;
+  bottom: 3px;
+  color: #ffffff;
+  border-top: solid 2px #c7c6c6;
+  border-bottom: solid 2px #c7c6c6;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+input {
+  width: 96%;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+textarea {
+  width: 96%;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#submit {
+  width: 15%;
+  background-color: #4aaaa5;
+  color: white;
+}
+
+#submit:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
